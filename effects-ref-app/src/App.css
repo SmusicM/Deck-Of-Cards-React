@@ -1,0 +1,72 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+body{
+  background-color: rgb(20, 190, 28);
+  
+}
+
+
+.CardPage-wrapper{
+  display: flex;
+  flex-direction: column;          
+ 
+  align-items: center;
+  
+  margin-top:40px;
+ 
+}
+
+.CardPage-Card{
+  display: flex; 
+  flex-direction: column;          
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.CardPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.CardPage-Card-div{
+  justify-content: center;
+  align-items: center;
+  display: flex; 
+  position: relative;
+  flex-direction: column; 
+  margin-right: 220px;
+  padding: 15px;
+}
+
+.CardPage-Card-div img{
+  position: absolute;
+  
+  
+}
+
+
+.CardPage-buttons{
+display: inline-block;
+position: fixed;
+margin: 15px;
+top: 0;
+background-color: rgb(20, 190, 28);
+}
+.CardPage-buttons button{
+ color: rgb(218, 206, 48);
+ background-color: rgb(224, 68, 40);
+ border-radius: 3px;
+ border:  solid rgb(218, 206, 48);
+ width:100px;
+ height: 45px;
+}
+
